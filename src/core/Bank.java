@@ -3,6 +3,7 @@ package main.src.core;
 import main.src.estorePojo.exceptions.InsufficientBalanceException;
 import main.src.estorePojo.exceptions.UnknownAccountException;
 
+//service
 public class Bank {
 
 	private Account estore;

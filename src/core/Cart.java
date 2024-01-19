@@ -3,6 +3,7 @@ package main.src.core;
 import java.util.HashMap;
 import java.util.Map;
 
+//data
 public class Cart {
     
     /** The client owning the cart. */

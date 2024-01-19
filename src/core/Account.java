@@ -3,6 +3,7 @@ package main.src.core;
 
 import main.src.estorePojo.exceptions.InsufficientBalanceException;
 
+//data
 public class Account {
 
     private double amount;

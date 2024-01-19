@@ -5,6 +5,7 @@ import main.src.estorePojo.exceptions.InvalidCartException;
 import main.src.estorePojo.exceptions.UnknownAccountException;
 import main.src.estorePojo.exceptions.UnknownItemException;
 
+//
 public class Client implements Runnable {
 
     private Store store;

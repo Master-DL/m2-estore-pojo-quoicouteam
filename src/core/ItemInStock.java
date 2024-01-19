@@ -1,5 +1,6 @@
 package main.src.core;
 
+//data
 public class ItemInStock {
 
 	/** The total number of ItemInStock instances created. */

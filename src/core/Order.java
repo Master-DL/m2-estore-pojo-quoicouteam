@@ -9,6 +9,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+//data
 public class Order {
 
 	/** The total number of orders emitted so far. */
