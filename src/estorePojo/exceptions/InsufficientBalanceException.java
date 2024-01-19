@@ -1,4 +1,4 @@
-package estore.services.implem.src.estorePojo.exceptions;
+package estore.services.interfaces.src.estorePojo.exceptions;
 
 public class InsufficientBalanceException extends Exception {
     
