@@ -1,9 +1,9 @@
-package main;
+package estore.services.implem.src.main;
 
-import core.Bank;
-import core.Client;
-import core.Provider;
-import core.Store;
+import estore.services.implem.src.core.Bank;
+import estore.services.implem.src.core.Client;
+import estore.services.implem.src.core.Provider;
+import estore.services.implem.src.core.Store;
 
 public class Main {
 
