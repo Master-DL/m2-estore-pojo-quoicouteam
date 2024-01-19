@@ -1,9 +1,9 @@
-package estore.services.interfaces.src.core;
+package main.src.core;
 
-import estore.services.implem.src.estorePojo.exceptions.InsufficientBalanceException;
-import estore.services.implem.src.estorePojo.exceptions.InvalidCartException;
-import estore.services.implem.src.estorePojo.exceptions.UnknownAccountException;
-import estore.services.implem.src.estorePojo.exceptions.UnknownItemException;
+import main.src.estorePojo.exceptions.InsufficientBalanceException;
+import main.src.estorePojo.exceptions.InvalidCartException;
+import main.src.estorePojo.exceptions.UnknownAccountException;
+import main.src.estorePojo.exceptions.UnknownItemException;
 
 public class Client implements Runnable {
 
@@ -71,8 +71,8 @@ public class Client implements Runnable {
     private void _scenario2(
             String[] items, int[] qties, String address, String account )
     throws
-    InsufficientBalanceException, UnknownAccountException,
-    UnknownItemException, InvalidCartException{
+            InsufficientBalanceException, UnknownAccountException,
+            UnknownItemException, InvalidCartException {
     	
         System.out.println("Ordering for "+account+"...");
         Cart cart = null;

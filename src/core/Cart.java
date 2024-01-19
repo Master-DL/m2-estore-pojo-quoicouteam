@@ -1,4 +1,4 @@
-package estore.services.interfaces.src.core;
+package main.src.core;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,9 +1,10 @@
-package estore.services.interfaces.src.core;
+package main.src.core;
+
+import main.src.estorePojo.exceptions.UnknownItemException;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import estore.services.implem.src.estorePojo.exceptions.UnknownItemException;
 
 public class Provider {
 

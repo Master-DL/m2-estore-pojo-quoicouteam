@@ -1,4 +1,4 @@
-package estore.services.interfaces.src.estorePojo.exceptions;
+package main.src.estorePojo.exceptions;
 
 public class InvalidCartException extends Exception {
     

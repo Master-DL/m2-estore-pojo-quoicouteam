@@ -1,7 +1,7 @@
-package estore.services.interfaces.src.core;
+package main.src.core;
 
-import estore.services.implem.src.estorePojo.exceptions.InsufficientBalanceException;
-import estore.services.implem.src.estorePojo.exceptions.UnknownAccountException;
+import main.src.estorePojo.exceptions.InsufficientBalanceException;
+import main.src.estorePojo.exceptions.UnknownAccountException;
 
 public class Bank {
 

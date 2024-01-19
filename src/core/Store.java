@@ -1,14 +1,15 @@
-package estore.services.interfaces.src.core;
+package main.src.core;
+
+import main.src.estorePojo.exceptions.InsufficientBalanceException;
+import main.src.estorePojo.exceptions.InvalidCartException;
+import main.src.estorePojo.exceptions.UnknownAccountException;
+import main.src.estorePojo.exceptions.UnknownItemException;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import estore.services.implem.src.estorePojo.exceptions.InsufficientBalanceException;
-import estore.services.implem.src.estorePojo.exceptions.InvalidCartException;
-import estore.services.implem.src.estorePojo.exceptions.UnknownAccountException;
-import estore.services.implem.src.estorePojo.exceptions.UnknownItemException;
 
 public class Store {
 
@@ -107,7 +108,7 @@ public class Store {
 	    public Order pay( Cart cart, String address, String bankAccountRef )
 	    throws
 	    InvalidCartException, UnknownItemException,
-	    InsufficientBalanceException, UnknownAccountException {
+				InsufficientBalanceException, UnknownAccountException {
 	        
 	        if ( cart == null )
 	            throw new InvalidCartException("Cart shouldn't be null");
