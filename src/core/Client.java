@@ -1,9 +1,9 @@
 package estore.services.implem.src.core;
 
-import estorePojo.exceptions.InsufficientBalanceException;
-import estorePojo.exceptions.InvalidCartException;
-import estorePojo.exceptions.UnknownAccountException;
-import estorePojo.exceptions.UnknownItemException;
+import estore.services.implem.src.estorePojo.exceptions.InsufficientBalanceException;
+import estore.services.implem.src.estorePojo.exceptions.InvalidCartException;
+import estore.services.implem.src.estorePojo.exceptions.UnknownAccountException;
+import estore.services.implem.src.estorePojo.exceptions.UnknownItemException;
 
 public class Client implements Runnable {
 
