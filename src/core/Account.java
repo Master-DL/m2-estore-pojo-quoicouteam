@@ -1,6 +1,6 @@
-package core;
+package estore.services.implem.src.core;
 
-import estorePojo.exceptions.InsufficientBalanceException;
+import estore.services.implem.src.estorePojo.exceptions.InsufficientBalanceException;
 
 public class Account {
 
